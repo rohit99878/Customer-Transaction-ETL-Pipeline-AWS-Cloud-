@@ -1,0 +1,10 @@
+paths:
+  raw_data: "data/raw/transactions.csv"
+  transformed_dir: "data/transformed_temp/"        # temp folder created by Spark write
+  transformed_data: "data/transformed/transactions_final.csv"
+
+columns:
+  expected_count: 20
+
+validation:
+  max_missing_percent: 5
